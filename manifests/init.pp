@@ -1,4 +1,6 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+## Adds jenv package
+class jenv {
+  package { 'jenv':
+    ensure  => installed,
+  }
 }
